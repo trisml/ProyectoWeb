@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/styleForm.css" />
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="ancho">
+    <header>
+        <nav>
+          <a href="/" class="brand-name"><img src="/assets/apple-removebg-preview.png"></a>
+  
+          <ul class="navbar-links">
+            <li class="active">
+              <a href="/index.html">Início</a>
+            </li>
+            
+            <li>
+              <a href="/servicos">Acerca de</a>
+            </li>
+            <li>
+              <a href="/templates/contacto.html">Contacto</a>
+            </li>
+          </ul>
+  
+          <div class="menu-hamb-button hide-on-desktop">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+          </div>
+        </nav>
+      </header>
+    <main>
+      <section class="main-section">
+        <h2>Contáctanos</h2>
+        <form action="#" method="get" id="form">
+           <label for="name">Nombre:</label> 
+          <input type="text" name="name" id="name" placeholder="Ej: Tristán" />
+          <label for="surname">Apellidos:</label>
+          <input type="text" name="surname" placeholder="Ej:Marín López">
+          <label for="email">Correo Electronico:</label>
+          <input type="text" name="email" id="email" placeholder="Ej:tristanmlmp@gmail.com"/>
+          <label for="tlf">Telefono:</label>
+          <input type="text" name="tlf" placeholder="Ej:715678965">
+          
+        <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Por favor, inserta un mensaje"
+          ></textarea>
+          <input type="submit" value="Enviar" id="submit-btn" />
+          <ul id="errors-message"></ul>
+        </form>
+      </section>
+    </main>
+  </div>
+    <script src="/index.js"></script>
+    <script src="/scripts/formulario.js"></script>
+  </body>
+</html>

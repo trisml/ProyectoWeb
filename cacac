@@ -1,0 +1,53 @@
+@media (width < 462px){
+      :root {
+        --h1-size: 1.5rem;
+        --p-size: 0.5rem;
+        --section-height: 50vh;
+        --input-width: 5rem;
+        --h2-size: 1.5rem;
+        --form-width: 15rem;
+      }
+  
+    }
+    @media (min-width: 463px) and (max-width: 699.99px) {
+        :root {
+            --h1-font-size: 2rem;
+            --input-width: 8rem;
+            --input-heigth: 3.5rem;
+            --p-size: 0.8rem;
+            --btn-width: 6.5rem;
+            --form-width: 37rem;
+        }
+      }
+    @media (width < 700px ){
+      :root {
+        --h1-size: 2.5rem;
+        --p-size: 1rem;
+        --form-width: 25rem;
+        
+      }
+      
+    }
+  
+    @media (width <= 1024px ){ 
+      :root{
+        --h1-size:5rem;
+        --p-size:2.5rem;
+      }
+      h1 {
+        text-align: center;
+      }
+    
+      p {
+        text-align: center;
+      }}
+      @media (min-width: 701px) and (max-width: 1023px) {
+        :root {
+            --h1-font-size: 4rem;
+            --input-width: 17rem;
+            --input-heigth: 3.5rem;
+            --p-size: 1.5rem;
+            --input-width: 10rem;
+            --form-width: 37rem;
+        }
+      }
